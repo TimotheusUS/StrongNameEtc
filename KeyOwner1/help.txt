@@ -1,0 +1,7 @@
+﻿sn -k keypair.snk
+sn -p keypair.snk public.snk
+
+(siehe https://learn.microsoft.com/de-de/dotnet/standard/assembly/create-public-private-key-pair)
+
+Dann unter Projekteigenschaften->Signierung->"keypair.snk" hinzufügen bzw. browsen und laden
+
